@@ -1,7 +1,9 @@
-Prime-Child-Theme
+Prime Child Theme
 =================
 
-This is a blank child theme so you can begin customizing the Premium Theme. It will be identical to the Premium Theme until you add modifications.  See the following post for more information:
+More info: http://groupbuyingsite.com
+
+This is a blank child theme so you can begin customizing the Prime Theme. It will be identical to the Prime Theme until you add modifications.  See the following post for more information:
 http://groupbuyingsite.com/forum/showthread.php?3203-Setting-Up-and-Using-a-Child-Themes
 
 
