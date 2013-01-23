@@ -12,3 +12,13 @@ template: prime-theme
 Add your custom styles below:
 */
 
+#deal_attributes_wrap form.add-to-cart select {
+	float: left;
+	margin-top: 18px;
+}
+
+#deal_attributes_wrap .deal_purchase.button {
+	float: right;
+	width: auto;
+	margin-left: 20px;
+}
