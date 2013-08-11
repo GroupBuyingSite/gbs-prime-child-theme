@@ -13,7 +13,7 @@
 function gbs_child_theme_register_scripts() {
 
 	if ( !is_admin() ) {
-		wp_register_script( 'placeholder-enhanced', get_stylesheet_directory().'/js/jquery.placeholder-enhanced.min.js', array( 'jquery' ), gb_ptheme_current_version(), false );
+		wp_register_script( 'placeholder-enhanced', get_stylesheet_directory_uri().'/js/jquery.placeholder-enhanced.min.js', array( 'jquery' ), gb_ptheme_current_version(), false );
 	}
 
 }
