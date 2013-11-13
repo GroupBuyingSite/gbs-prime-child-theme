@@ -3,8 +3,8 @@
 Template Name: Checkout Page
 */
 ?>
-<?php get_header(); ?>
 <?php $checkout_page = Group_Buying_Checkouts::get_instance(); ?>
+<?php get_header(); ?>
 
 
 <div id="account_page" class="clearfix">
