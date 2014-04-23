@@ -1,16 +1,8 @@
 <?php do_action( 'gb_meta_box_deal_voucher_pre' ) ?>
-<script type="text/javascript">
-jQuery(document).ready(function() {
-    jQuery(".tinymce").addClass("mceEditor");
-    if ( typeof( tinyMCE ) == "object" &&
-         typeof( tinyMCE.execCommand ) == "function" ) {
-        tinyMCE.execCommand("mceAddControl", false, "voucher_how_to_use");
-    }
-});
-</script>
 <p id="voucher_howto_edit">
 	<label for="voucher_how_to_use"><strong><?php gb_e( 'Voucher&rsquo;s "How to use this":' ); ?></strong></label><br/>
-	<textarea rows="3" cols="40" name="voucher_how_to_use" tabindex="508" id="voucher_how_to_use" class="tinymce" style="width:98%;height:200px;"><?php echo esc_textarea( $voucher_how_to_use ) ?></textarea>
+	<?php
+		wp_editor( $voucher_how_to_use, 'voucher_how_to_use', array( 'textarea_rows' => 10 ) ); ?>
 </p>
 <p id="voucher_logo_edit">
 	<label for="voucher_logo"><strong><?php gb_e( 'Voucher&rsquo;s Logo:' ); ?></strong></label><br/>
